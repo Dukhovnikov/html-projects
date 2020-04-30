@@ -1,0 +1,54 @@
+.therapy {
+  margin-bottom: 100px;
+}
+
+.therapy-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 30px;
+  color: #b81f21;
+  margin-bottom: 72px;
+}
+.therapy-body-data {
+  font-size: 14px;
+  line-height: 22px;
+  color: #787878;
+  margin-bottom: 8px;
+}
+.therapy-body-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #333333;
+  margin-bottom: 24px;
+}
+.therapy-body-text {
+  font-size: 16px;
+  line-height: 160%;
+  color: #333333;
+}
+.therapy-button {
+  width: 282px;
+  height: 56px;
+}
+.therapy-button__view {
+  border: 1px solid #b81f21;
+  box-sizing: border-box;
+  border-radius: 41px;
+  padding: 13px 32px 11px 32px;
+  background: white;
+  transition: background ease-in 0.2s;
+}
+.therapy-button__view__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  color: #b81f21;
+}
+.therapy-body {
+  margin-bottom: 56px;
+}
+.therapy-button__view:hover {
+  background-color: #ff4a4d;
+  color: #ffffff;
+}

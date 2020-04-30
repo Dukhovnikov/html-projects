@@ -1,0 +1,54 @@
+
+.team {
+  position: relative;
+}
+.team .team-title {
+  margin-bottom: 47px;
+}
+
+.team-title .team-title__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.04em;
+  color: #B81F21;
+}
+.team-photo .team-photo__img {
+  width: 100%;
+}
+.team-cardiogram .team-cardiogram__icon {
+  width: 100%;
+  position: absolute;
+  bottom: -58px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .team-cardiogram .team-cardiogram__icon {
+    bottom: -36px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .team-cardiogram .team-cardiogram__icon {
+    bottom: -49px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+  .team-cardiogram .team-cardiogram__icon {
+    bottom: -27px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .team-cardiogram .team-cardiogram__icon {
+    bottom: -19px;
+  }
+  .team-title .team-title__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 60px;
+    letter-spacing: 0.04em;
+    color: #B81F21;
+  }
+}

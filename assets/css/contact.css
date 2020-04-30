@@ -1,0 +1,111 @@
+.contact {
+  width: 100%;
+  padding-top: 76px;
+}
+.contact-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 140%;
+  color: #B81F21;
+  margin-bottom: 46px;
+}
+.contact-container {
+  display: flex;
+  flex-direction: row;
+
+}
+.contact-container .contacts {
+  background: #F6F6F6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.contacts .line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 6px;
+}
+.contact-container .contacts .contacts-block {
+  margin-bottom: 36px;
+}
+.contacts .contacts-block a {
+  color: #B81F21;
+}
+
+.contacts .contacts-block .contacts-block-title {
+  color: #B81F21;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  padding-bottom: 16px;
+}
+.contacts .contacts-block .contacts-block-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+}
+.contact-container .info {
+  background: #FCDDDE;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact-container .info .info-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: #B81F21;
+  padding: 0 40px;
+}
+
+.contact-container .info .info-img {
+  padding-left: 40px;
+}
+.map img {
+  width: 100%;
+}
+.find {
+  padding-bottom: 100px;
+  padding-top: 76px;
+}
+.find .find-container {
+  display: flex;
+  flex-direction: row;
+}
+.find .find-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+  color: #B81F21;
+  margin-bottom: 56px;
+}
+.find-container .margin {
+  margin: 0 30px;
+}
+.find-container .find-block .find-block-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #B81F21;
+  margin-bottom: 24px;
+}
+.find-container .find-block .find-block-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+}
+.footer {
+  background-color: #F5F5F5;
+}

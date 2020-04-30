@@ -1,0 +1,41 @@
+/* BEM = block element modificator */
+/* breakpoints 320x767, 768x1199, 1200x1439, 1440x */
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat-Regular'), url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+html, body, h1, h2, h3, h4, h5, span, p, div, section {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+.version {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  z-index: 999;
+  font-size: 10px;
+  color: #30b14d;
+}
+
+.normal-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.mb-12 { margin-bottom: 12px; }
+
+.w-970 { width: 970px; }
+.w-770 { width: 770px; }
+.w-670 { width: 670px; }
+.w-570 { width: 570px; }
+.w-370 { width: 370px; }
+.w-270 { width: 270px; }
+.w-170 { width: 170px; }
+

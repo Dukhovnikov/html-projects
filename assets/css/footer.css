@@ -1,0 +1,141 @@
+.footer {
+  background: #f5f5f5;
+}
+
+.footer-information__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  color: #b81f21;
+  padding: 2px 0;
+  margin-top: 24px;
+  font-weight: 700;
+}
+
+.footer-information__schedule {
+  font-size: 10px;
+  line-height: 180%;
+  color: #b81f21;
+  margin: -4px 0 4px 0;
+}
+
+.footer-information__address {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 180%;
+  color: #b81f21;
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+
+.footer-services-p {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #333333;
+  margin: 24px 0;
+}
+
+.footer-items {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.footer-services-p {
+  transition: color ease-in 0.2s;
+}
+
+.footer-services-p:hover {
+  color: #ff4a4d;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+}
+
+.footer-row-footer-quote {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.footer-row-footer-politics,
+.footer-row-footer-agreement {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 180%;
+  color: #b81f21;
+  text-decoration-line: underline;
+}
+
+.footer-row-footer__link {
+  color: #b81f21;
+}
+
+.footer-row-footer__link:hover {
+  color: #961c1d;
+  cursor: pointer;
+}
+
+.footer-row-body {
+  border-bottom: 2px solid #e0e2e5;
+  padding: 57px 0 44px 0;
+}
+
+.footer-maps {
+  width: 100%;
+}
+
+.footer-information__image {
+  width: 100%;
+}
+
+.footer-row-footer-quote {
+  margin: 23px 0 22px 0;
+}
+
+.footer-row-footer-politics,
+.footer-row-footer-agreement {
+  margin: 20px 0 22px 0;
+}
+
+.footer-information__social img:first-child {
+  margin-right: 30px;
+}
+
+.footer-information__social img:nth-child(2) {
+  margin-right: 30px;
+}
+
+.footer-services-a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #b81f21;
+  text-decoration: none;
+}
+
+.footer-services-a:hover {
+  cursor: pointer;
+  stroke: #ff4a4d;
+  color: #ff4a4d;
+}
+
+.footer-information-img-action {
+  transition: color ease-in 0.2s;
+  stroke: white;
+}
+.footer-information-img-action:hover {
+  cursor: pointer;
+  stroke: #ff4a4d;
+  color: #ff4a4d;
+}
+
+.footer-information-maps {
+  width: 100%;
+}

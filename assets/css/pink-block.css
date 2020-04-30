@@ -1,0 +1,40 @@
+.pink-block {
+  background: #fcddde;
+}
+
+.pink-card {
+  padding: 100px 0 100px 0;
+}
+
+.pink-block__title .pink-block__title-txt {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 160%;
+  color: #b81f21;
+  margin-bottom: 60px;
+}
+.pink-block__title .block2 {
+  margin: 0;
+}
+
+.pink-block__description .pink-block__description-txt {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.pink-block__description.icon {
+  display: flex;
+}
+.pink-block__description .pink_block__description-block {
+  display: flex;
+  margin-right: 30px;
+}
+
+.pink_block__description-block .pink_block__description-block__img {
+  margin-right: 20px;
+}
+
