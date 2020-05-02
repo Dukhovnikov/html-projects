@@ -1,0 +1,114 @@
+.clients {
+  margin-bottom: 100px;
+}
+.clients__card__caption .clients__card__caption-item.active {
+  border-bottom: 4px solid #B81F21;
+  color: #B81F21;
+  font-weight: 600;
+}
+.clients__card__content {
+  display: none; /* по умолчанию прячем все блоки */
+  margin-bottom: 16px;
+}
+.clients__card__content.active {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+
+.clients .clients__title {
+  margin: 72px 0 32px 0;
+}
+
+.clients__title .clients__title__txt {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 140%;
+  color: #b81f21;
+}
+
+.clients__card .clients__card__caption {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+.clients__card__caption .clients__card__caption-item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #b81f21;
+  list-style-type: none;
+  margin-right: 30px;
+  padding: 0 0px 15px 0px;
+  border-bottom: 4px solid #fff;
+}
+.clients__link:hover {
+  text-decoration: none;
+}
+.clients__link:hover .clients__card__img-src {
+  filter: opacity(0.5);
+}
+.clients__link:hover .clients__card__title-txt {
+  color: #FF4A4D;
+}
+.clients__link:active .clients__card__img-src{
+  filter: none;
+}
+.clients__link:active .clients__card__title-txt {
+  color: #961C1D;
+}
+.clients__card__caption-item:hover {
+  color:#FF4A4D;
+  cursor: pointer;
+}
+.clients__card__caption-item:active {
+  color:#961C1D;
+}
+
+
+.clients .clients__card {
+  margin-bottom: 57px;
+}
+.clients__card .clients__card__img {
+  margin-bottom: 8px;
+}
+.clients__card__img .clients__card__img-src {
+  width: 100%;
+  height: auto;
+}
+.clients__card .clients__card__date {
+  margin-bottom: 8px;
+}
+.clients__card__date .clients__card__date-txt {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #787878;
+}
+
+.clients__card .clients__card__title {
+  margin-bottom: 24px;
+}
+.clients__card__title .clients__card__title-txt {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+}
+
+.clients__card .clients__card__description {
+  margin-bottom: 8px;
+}
+.clients__card__description .clients__card__description-txt {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #333333;
+}

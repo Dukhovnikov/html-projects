@@ -1,0 +1,317 @@
+.services-prices {
+  padding: 100px 0;
+}
+
+.tabs {
+  margin-bottom: 100px;
+  padding: 0;
+}
+
+.tabs li {
+  display: inline;
+  font-size: 24px;
+  line-height: 30px;
+  list-style-type: none;
+  padding-bottom: 24px;
+  margin-right: 156px;
+}
+
+.tabs li:hover {
+  cursor: pointer;
+}
+
+.tabs li:last-child {
+  margin-right: 0;
+}
+
+.tabs li.active {
+  font-weight: 600;
+  color: #b81f21;
+  border-bottom: 1px solid #b81f21;
+  border-bottom-width: 4px;
+}
+
+.tabs a {
+  color: #333333;
+}
+
+.tabs a:hover {
+  text-decoration: none;
+}
+
+.general-info {
+  padding: 100px 0;
+}
+
+.general-info-link .row {
+  flex-wrap: nowrap;
+}
+
+.general-info-header {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.04em;
+  color: #b81f21;
+  margin-bottom: 48px;
+}
+
+.general-info-link .general-info-link__general {
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+
+.border-line-red {
+  font-weight: 600;
+  color: #b81f21;
+  border-bottom: 1px solid #b81f21;
+  border-bottom-width: 4px;
+  width: 217px;
+}
+
+.general-info-link .general-info-link__prices {
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 24px;
+  width: 72px;
+}
+
+.general-info-information .general-info-information__advise {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  color: #333333;
+  margin-bottom: 32px;
+}
+
+.general-info-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.general-info-buttons .general-info-buttons__record {
+  border: 1px solid #b81f21;
+  border-radius: 33px;
+  background: #b81f21;
+  width: 370px;
+  height: 56px;
+  transition: background ease-in 0.2s;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.general-info-buttons .general-info-buttons__record:hover {
+  background: #ff4a4d;
+  cursor: pointer;
+  outline: none;
+}
+
+.general-info-buttons .general-info-buttons__record:active {
+  background: #961c1d;
+  outline: none;
+}
+
+.general-info-buttons .general-info-buttons__record:focus {
+  outline: none;
+}
+
+.general-info-buttons .general-info-buttons__view {
+  border: 1px solid #b81f21;
+  color: #b81f21;
+  box-sizing: border-box;
+  border-radius: 41px;
+  background: #ffffff;
+  width: 370px;
+  height: 56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  transition: color ease-in 0.2s, border ease-in 0.2s;
+}
+
+.general-info-buttons .general-info-buttons__view:hover {
+  border: 1px solid #ff4a4d;
+  cursor: pointer;
+  color: #ff4a4d;
+}
+
+.general-info-buttons .general-info-buttons__view:active {
+  border: 1px solid #961c1d;
+  color: #961c1d;
+  outline: none;
+}
+
+.general-info-buttons .general-info-buttons__view:focus {
+  outline: none;
+}
+
+.general-info-buttons
+  .general-info-buttons__view
+  .general-info-buttons__view__text:hover {
+  color: #ff4a4d;
+}
+
+.general-info-text-left,
+.general-info-text-right {
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.general-info-link {
+  margin-bottom: 72px;
+}
+
+.general-info-information {
+  margin-bottom: 28px;
+}
+
+.prices {
+  padding: 100px 0;
+}
+
+.prices-buttons-wrapper .general-info-buttons__record {
+  border: 1px solid #b81f21;
+  border-radius: 33px;
+  background: #b81f21;
+  width: 370px;
+  height: 56px;
+  transition: background ease-in 0.2s;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.prices-buttons-wrapper .general-info-buttons__record:hover {
+  background: #ff4a4d;
+  cursor: pointer;
+  outline: none;
+}
+
+.prices-buttons-wrapper .general-info-buttons__record:active {
+  background: #961c1d;
+  outline: none;
+}
+
+.prices-buttons-wrapper .general-info-buttons__record:focus {
+  outline: none;
+}
+
+.prices-buttons-wrapper .general-info-buttons__view {
+  border: 1px solid #b81f21;
+  color: #b81f21;
+  box-sizing: border-box;
+  border-radius: 41px;
+  background: #ffffff;
+  width: 370px;
+  height: 56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  transition: color ease-in 0.2s, border ease-in 0.2s;
+  margin-bottom: 32px;
+}
+
+.prices-buttons-wrapper .general-info-buttons__view:hover {
+  border: 1px solid #ff4a4d;
+  cursor: pointer;
+  color: #ff4a4d;
+}
+
+.prices-buttons-wrapper .general-info-buttons__view:active {
+  border: 1px solid #961c1d;
+  color: #961c1d;
+  outline: none;
+}
+
+.prices-buttons-wrapper .general-info-buttons__view:focus {
+  outline: none;
+}
+
+.prices-buttons-wrapper
+  .general-info-buttons__view
+  .general-info-buttons__view__text:hover {
+  color: #ff4a4d;
+}
+
+.prices-list-wrapper .prices-list {
+  list-style: none;
+  padding: 0;
+}
+
+.prices-list-wrapper .prices-list li {
+  overflow: hidden;
+  border-top: 1px solid #e0e2e5;
+  border-left: 1px solid #e0e2e5;
+  border-right: 1px solid #e0e2e5;
+  background: #ffffff;
+  padding: 40px 40px 40px 40px;
+}
+
+.prices-list-wrapper .prices-list li:last-child{
+  border-bottom: 1px solid #e0e2e5;
+}
+
+.prices-list-wrapper .prices-list span {
+  color: #333333;
+  font-size: 16px;
+  line-height: 22px;
+  width: 80%;
+  float: left;
+  clear: right;
+  box-sizing: border-box;
+}
+
+.prices-list-wrapper .prices-list b {
+  color: #333333;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  white-space: nowrap;
+  width: 20%;
+  float: right;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+
+.price-calendar-wrapper {
+  background: #f6f6f6;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.price-calendar-wrapper img {
+  margin-right: 36px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .prices-list-wrapper .prices-list span {
+    width: 60%;
+  }
+
+  .prices-list-wrapper .prices-list b {
+    width: 40%;
+  }
+
+  .prices-list-wrapper .prices-list li {
+    padding: 20px 5px 20px 20px;
+  }
+}

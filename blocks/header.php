@@ -7,7 +7,7 @@
   <div class="header-items">
     <ul class="header-items__list">
       <li><a href="about.php">О клинике</a></li>
-      <li><a href="#">Услуги и цены</a></li>
+      <li><a href="services-price.php">Услуги и цены</a></li>
       <li><a href="our-team.php">Команда</a></li>
       <li><a href="#">Истории пациентов</a></li>
       <li><a href="articles.php">Статьи</a></li>

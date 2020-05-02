@@ -16,9 +16,6 @@
 </head>
 <body>
   <div class="version">1.0.0</div>
-
-  <!-- <?php include('blocks/header.php'); ?> -->
-
   <section class="general-info">
     <div class="container">
       <div class="general-info-header">

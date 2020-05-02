@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/header.css?v=1.0.0" />
   <link rel="stylesheet" href="assets/css/footer.css?v=1.0.0" />
   <link rel="stylesheet" href="assets/css/about.css?v=1.0.0" />
+  <link rel="stylesheet" href="assets/css/block-photogallery.css?v=1.0.0" />
 
   <title>О клинике</title>
 </head>
@@ -142,11 +143,14 @@
       </div>
     </div>
   </section>
+  <?php include ("blocks/block-photogallery.php"); ?>
 
   <?php include ("blocks/footer.php"); ?>
 
   <script src="assets/js/libs.min.js"></script>
   <script src="assets/js/share.js?v=1.0.0"></script>
   <script src="assets/js/main.js?v=1.0.0"></script>
+  <script src="assets/js/block-photogallery.js?v=1.0.0"></script>
+  <script src="assets/js/flickity.pkgd.min.js"></script>
 </body>
 </html>
