@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-section.about {
-  position: relative;
-  margin-bottom: 80px;
-}
-
 .about-container {
   display: flex;
   align-items: center;
@@ -11,16 +5,45 @@ section.about {
   flex-direction: row;
 }
 
-.about-left .about-left__header {
+.under-header-path {
+  background: #f5f5f5;
+}
+
+.under-header-body {
+  display: flex;
+  padding: 19px;
+}
+
+.under-header-path__main .under-header-path__main__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b81f21;
+  border-bottom: 1px solid #b81f21;
+}
+
+.under-header-path__about .under-header-path__about__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.under-header-path__main,
+.under-header-path__arrow {
+  margin-right: 16px;
+}
+
+.about-left h1 {
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
-  color: #B81F21;
+  color: #b81f21;
   margin-bottom: 48px;
   margin-top: 72px;
 }
 
-.about-left .about-left__text {
+.about-left > p{
   font-size: 16px;
   line-height: 22px;
   color: #333333;
@@ -28,21 +51,34 @@ section.about {
 }
 
 .about-left .about-left__button {
-  background: #FFFFFF;
-  border: 1px solid #B81F21;
+  background: #ffffff;
+  border: 1px solid #b81f21;
   box-sizing: border-box;
   border-radius: 30px;
   width: 288px;
   height: 56px;
   margin-bottom: 60px;
+  display: block;
+  line-height: 56px;
 }
-
-.about-left .about-left__button-text {
+.about-left .about-left__button {
   font-weight: 600;
   font-size: 16px;
-  line-height: 140%;
   text-align: center;
-  color: #B81F21;
+  color: #b81f21;
+}
+.about-left .about-left__button:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  border: 1px solid #FF4A4D;
+}
+.about-left .about-left__button:active {
+  background: #FFFFFF;
+  border: 1px solid #961C1D;
+  outline: none;
+}
+.about-left .about-left__button:focus {
+  outline: none;
 }
 
 .about-right {
@@ -50,11 +86,8 @@ section.about {
   height: 100%;
   right: 0;
   width: 50%;
-  background-image: url("../img/about/dog.png");
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
 }
+
 .about-right-mobile {
   display: none;
 }
@@ -139,6 +172,15 @@ section.about {
   width: 337px;
   height: 56px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .directions-button {
+    width: 288px;
+    height: 56px;
+    margin: 0 auto;
+  }
+}
+
 .directions-button__item {
   border: 1px solid #b81f21;
   box-sizing: border-box;
@@ -146,6 +188,26 @@ section.about {
   padding: 13px 32px;
   background: transparent;
 }
+.directions-button__item:hover {
+  background: #FFFFFF;
+  border: 1px solid #FF4A4D;
+  border-radius: 30px;
+}
+.directions-button__item:active {
+  background: #FFFFFF;
+  border: 1px solid #961C1D;
+  border-radius: 30px;
+}
+.directions-button__item:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .directions-button__item {
+    padding: 15px 9px;
+  }
+}
+
 .directions-button__item__text {
   font-weight: 500;
   font-size: 16px;
@@ -154,6 +216,9 @@ section.about {
   font-family: Montserrat;
 }
 
+.directions-button__item__text:hover {
+  cursor: pointer;
+}
 
 .directions-image {
   position: absolute;
@@ -165,7 +230,7 @@ section.about {
   margin-bottom: 80px;
 }
 
-.equipment-header-wrapper .equipment-header-wrapper__text {
+.equipment-header-wrapper > p {
   font-weight: 600;
   font-size: 36px;
   line-height: 140%;
@@ -176,15 +241,51 @@ section.about {
   margin-bottom: 60px;
 }
 
+@media screen and (max-width: 414px) {
+  .equipment-row {
+    display: none;
+  }
+  .equipment-block {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-nav {
+    width: 70px;
+    margin-top: 25px;
+  }
+  .slick-next:before {
+    content: "";
+  }
+  .slick-prev:before {
+    content: "";
+  }
+  .slick-list {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .equipment-header-wrapper > p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #333333;
+  }
+  .equipment .mobile-slider {
+    display: block;
+  }
+}
+
+.mobile-slider {
+  display: none;
+}
+
 .equipment-block .equipment-block__image {
   margin-bottom: 32px;
 }
 
-.equipment-block .equipment-block__text {
+.equipment-block > p{
   font-size: 16px;
   line-height: 22px;
   color: #333333;
 }
-
-=======
->>>>>>> a10ef24c4c44a53c27eaaba6d4591ac791b27f59

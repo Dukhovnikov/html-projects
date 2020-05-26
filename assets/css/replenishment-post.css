@@ -47,6 +47,7 @@
 
 .replenishment-employee .replenishment-employee__image {
   margin-bottom: 12px;
+  width: 100%;
 }
 
 .replenishment-employee .replenishment-employee__image-caption {

@@ -7,111 +7,165 @@
   <link rel="shortcut icon" href="assets/img/helpers/favicon.png" type="image/png" />
   <link rel="stylesheet" href="assets/css/libs.min.css" />
   <link rel="stylesheet" href="assets/css/main.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/header.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/footer.css?v=1.0.0" />
   <link rel="stylesheet" href="assets/css/about.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/block-photogallery.css?v=1.0.0" />
+  <link rel="stylesheet" href="assets/css/blocks.css?v=1.0.0" />
 
   <title>О клинике</title>
 </head>
 
 <body>
-  <div class="version">1.0.0</div>
-
   <?php include ("blocks/header.php"); ?>
 
+<!-- Section about -->
   <section class="about">
     <div class="container">
       <div class="row">
+
         <div class="col-lg-6 col-md-12">
           <div class="about-left">
-            <p class="about-left__header">О клинике</p>
-            <p class="about-left__text">
+            <h1>О клинике</h1>
+            <p>
               Приоритетами клиники является слаженная работа команды единомышленников, которые могут оказать помощь
               животным на основании своих знаний, опыта и с использованием самого современного оборудования. Для нас
               очень важен индивидуальный подход к каждому пациенту и мы готовы сделать пребывание в нашей клинике
               наиболее приятным.
             </p>
-            <button class="about-left__button about-left__button-text">Познакомиться с командой</button>
-            <p class="about-left__text">
+            <a href="our-team.php" class="about-left__button about-left__button-text">Познакомиться с командой</a>
+            <p>
               Наша клиника тесно сотрудничает с референсными диагностическими центрами как в России, так и за рубежом
               для предоставления самых сложных экспертных диагностических услуг.
             </p>
           </div>
         </div>
         <div class="about-right">
-          <img class="about-right__pawshake" src="assets/img/about/korvetcenter.svg">
+          <img class="about-right__animal__image" src="assets/img/about/dog.png">
         </div>
         <div class="about-right-mobile">
           <div class="about-right__animal">
             <img class="about-right__animal__image" src="assets/img/about/dog.png">
           </div>
-          <div class="about-right__pawshake">
-            <img src="assets/img/about/korvetcenter.svg">
-          </div>
         </div>
+
       </div>
     </div>
   </section>
+
+<!-- Section equipment -->
   <section class="equipment">
     <div class="container">
       <div class="equipment-body">
         <div class="equipment-header-wrapper">
-          <p class="equipment-header-wrapper__text">
+          <p>
             Клиника оснащена новейшим оборудованием, позволяющим проводить
             диагностику, лечение и реабилитацию животных на высоком
             профессиональном уровне в минимально возможные сроки.
           </p>
         </div>
+        <!-- Mobile equipment slider -->
+        <div class="mobile-slider">
+
+          <div class="row">
+            <div class="container">
+
+              <div class="slider-for equipment-slider">
+                <div class="equipment-block">
+                  <img class="equipment-block__image" src="assets/img/equipment/laboratory.png" />
+                  <p>Собственная лаборатория</p>
+                </div>
+                <div class="equipment-block">
+                  <img class="equipment-block__image" src="assets/img/equipment/philips.png" />
+                  <p>Cовременный экспертный ультразвуковой аппарат Philips</p>
+                </div>
+                <div class="equipment-block">
+                  <img class="equipment-block__image" src="assets/img/equipment/xray.png" />
+                  <p>Цифровой рентген</p>
+                </div>
+                <div class="equipment-block">
+                  <img class="equipment-block__image" src="assets/img/equipment/operation.png" />
+                  <p>Просторная операционная, оснащенная аппаратом газового наркоза и
+                    кислородными концентраторами</p>
+                </div>
+                <div class="equipment-block">
+                  <img class="equipment-block__image" src="assets/img/equipment/reabilitation.png" />
+                  <p>Удобный комфортабельный стационар для полноценной реабилитации</p>
+                </div>
+                <div class="equipment-block">
+                  <img class="equipment-block__image" src="assets/img/equipment/pharmacy.png" />
+                  <p>Собственная аптека</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Mobile equipment slider controls -->
+          <div class="row">
+            <div class="container" style="display: flex;justify-content: center; margin-bottom: 32px;">
+              <div class="slider-nav equipment-slider-nav">
+                <p class="clider-nav_item">1 из 6</p>
+                <p class="clider-nav_item">2 из 6</p>
+                <p class="clider-nav_item">3 из 6</p>
+                <p class="clider-nav_item">4 из 6</p>
+                <p class="clider-nav_item">5 из 6</p>
+                <p class="clider-nav_item">6 из 6</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desktop equipment -->
         <div class="equipment-row">
           <div class="row">
             <div class="col-md-4">
               <div class="equipment-block">
                 <img class="equipment-block__image" src="assets/img/equipment/laboratory.png" />
-                <p class="equipment-block__text">Собственная лаборатория</p>
+                <p>Собственная лаборатория</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="equipment-block">
                 <img class="equipment-block__image" src="assets/img/equipment/philips.png" />
-                <p class="equipment-block__text">Cовременный экспертный ультразвуковой аппарат Philips</p>
+                <p>Cовременный экспертный ультразвуковой аппарат Philips</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="equipment-block">
                 <img class="equipment-block__image" src="assets/img/equipment/xray.png" />
-                <p class="equipment-block__text">Цифровой рентген</p>
+                <p>Цифровой рентген</p>
               </div>
             </div>
           </div>
         </div>
+
         <div class="equipment-row">
           <div class="row">
             <div class="col-md-4">
               <div class="equipment-block">
                 <img class="equipment-block__image" src="assets/img/equipment/operation.png" />
-                <p class="equipment-block__text">Просторная операционная, оснащенная аппаратом газового наркоза и
+                <p>Просторная операционная, оснащенная аппаратом газового наркоза и
                   кислородными концентраторами</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="equipment-block">
                 <img class="equipment-block__image" src="assets/img/equipment/reabilitation.png" />
-                <p class="equipment-block__text">Удобный комфортабельный стационар для полноценной реабилитации</p>
+                <p>Удобный комфортабельный стационар для полноценной реабилитации</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="equipment-block">
                 <img class="equipment-block__image" src="assets/img/equipment/pharmacy.png" />
-                <p class="equipment-block__text">Собственная аптека</p>
+                <p>Собственная аптека</p>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
+
+<!-- Section directions -->
   <section class="directions">
     <div class="container">
       <div class="row">
@@ -132,25 +186,23 @@
             </p>
           </div>
           <div class="directions-button">
-            <button class="directions-button__item directions-button__item__text">
+            <a href="services-cardiology.php" class="directions-button__item directions-button__item__text">
               Перейти в раздел Кардиология
-            </button>
+            </a>
           </div>
         </div>
         <div class="directions-image show-desktop">
-          <img class="direction-image__item" src="assets/img/about/circlehurt.svg">
+          <img class="direction-image__item" src="assets/img/about/circlehurt.svg" />
         </div>
       </div>
     </div>
   </section>
-  <?php include ("blocks/block-photogallery.php"); ?>
 
+<!-- Footer + modal + js libs -->
   <?php include ("blocks/footer.php"); ?>
+  <?php include ("blocks/modal-appointment.php"); ?>
+  <?php include ("blocks/modal-thanks.php"); ?>
+  <?php include ("blocks/js-lib.php"); ?>
 
-  <script src="assets/js/libs.min.js"></script>
-  <script src="assets/js/share.js?v=1.0.0"></script>
-  <script src="assets/js/main.js?v=1.0.0"></script>
-  <script src="assets/js/block-photogallery.js?v=1.0.0"></script>
-  <script src="assets/js/flickity.pkgd.min.js"></script>
 </body>
 </html>

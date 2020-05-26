@@ -7,62 +7,72 @@
   <link rel="shortcut icon" href="assets/img/helpers/favicon.png" type="image/png" />
   <link rel="stylesheet" href="assets/css/libs.min.css" />
   <link rel="stylesheet" href="assets/css/main.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/header.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/footer.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/contact.css" />
+  <link rel="stylesheet" href="assets/css/blocks.css?v=1.0.0" />
 
-  <title>Корветцент</title>
+  <title>Корветцент - Контакты</title>
 </head>
 
 <body>
-  <div class="version">1.0.0</div>
 
   <?php include ("blocks/header.php"); ?>
 
+<!-- Contact block -->
   <section class="contact">
     <div class="container">
       <h3 class="contact-title">Контакты</h3>
+
       <div class="contact-container">
         <div class="contacts">
+
+        <!-- Address + phone -->
           <div class="line">
             <div class="contacts-block">
               <h3 class="contacts-block-title">Адрес</h3>
-              <p class="contacts-block-info"> г. Королев, ул. Фрунзе, д. 19</p>
+              <p>г. Королев, ул. Фрунзе, д. 19</p>
             </div>
             <div class="contacts-block">
               <h3 class="contacts-block-title">Телефон:</h3>
-              <p class="contacts-block-info">8 (977) 119-10-05</p>
+              <a href="tel: +79771191005">8 (977) 119-10-05</a>
             </div>
           </div>
+
+        <!-- Work hours -->
           <div class="line">
             <div class="contacts-block">
               <h3 class="contacts-block-title">Часы работы:</h3>
-              <p class="contacts-block-info">Ежедневно с 9.00 до 21.00</p>
+              <p>Ежедневно с 9.00 до 21.00</p>
             </div>
             <div class="contacts-block">
               <h3 class="contacts-block-title">Почта:</h3>
-              <a href="mailto:info@corvetcentre.ru"><p class="contacts-block-info">info@corvetcentre.ru</p></a>
+              <a href="mailto:info@corvetcentre.ru">info@corvetcentre.ru</a>
             </div>
           </div>
         </div>
+
         <div class="info">
-          <img class="info-img" src="./assets/img/footer/logo.svg" alt="">
-          <p class="info-text">Мы находимся в 700 метрах от станции Подлипки-Дачные или
+          <img class="info-img" src="./assets/img/footer/logo.svg" alt="logo" />
+          <p>
+            Мы находимся в 700 метрах от станции Подлипки-Дачные или
             9км от МКАД по Ярославскому шоссе. К нам удобно добираться,
-            как на машине, так и на электричке. Рядом есть парковка</p>
+            как на машине, так и на электричке. Рядом есть парковка
+          </p>
         </div>
 
       </div>
+
       <div class="map">
-        <img src="./assets/img/contacts/map.png" alt="">
+        <img src="./assets/img/contacts/map.png" alt="map" />
       </div>
+
+    <!-- Directions -->
       <div class="find">
         <h3 class="find-title">Как нас найти</h3>
+
         <div class="find-container">
+
           <div class="find-block">
-            <p class="find-block-title">На автомобиле:</p>
-            <p class="find-block-text">
+            <h2 class="find-block-title">На автомобиле:</h2>
+            <p>
               Клиника находится на северо-востоке Подмосковья
               в городе Королев в 9км от МКАД. Выезжаете из
               Москвы по Ярославскому шоссе и сворачиваете на
@@ -72,9 +82,10 @@
               там же можно припарковать машину.
             </p>
           </div>
+
           <div class="find-block margin">
-            <p class="find-block-title">На электричке:</p>
-            <p class="find-block-text">
+            <h2 class="find-block-title">На электричке:</h2>
+            <p>
               Ближе всего к клинике находится станция Подлипки-Дачные
               ярославского направления. С Ярославского вокзала вы
               можете сесть как на обычную электричку (около 45 минут),
@@ -84,9 +95,10 @@
               Напротив гостиницы «Подмосковье» будет наша клиника.
             </p>
           </div>
+
           <div class="find-block">
-            <p class="find-block-title">Пешком или общественном транспорте:</p>
-            <p class="find-block-text">
+            <h2 class="find-block-title">Пешком или общественном транспорте:</h2>
+            <p>
               Если вы живете Подлипках, Новых Подлипках или Черемушках,
               то дорога до нас у вас займет от 10 до 20 минут.
               Из Завокзального района удобнее всего будет доехать
@@ -101,11 +113,11 @@
 
     </div>
   </section>
+  <!-- Footer + modal + js libs -->
     <?php include ("blocks/footer.php"); ?>
+    <?php include ("blocks/modal-appointment.php"); ?>
+    <?php include ("blocks/modal-thanks.php"); ?>
+    <?php include ("blocks/js-lib.php"); ?>
 
-    <script src="assets/js/libs.min.js"></script>
-    <script src="assets/js/share.js?v=1.0.0"></script>
-    <script src="assets/js/main.js?v=1.0.0"></script>
 </body>
-
 </html>

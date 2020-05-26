@@ -14,12 +14,26 @@
 .doctor .doctor-title {
   margin-bottom: 42px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .doctor .doctor-title {
+    display: none;
+  }
+}
+
 .doctor .doctor-title .doctor-title__text {
   font-size: 38px;
   font-weight: 600;
   line-height: 1.4;
   color: #b81f21;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .doctor .doctor-title .doctor-title__text{
+    font-size: 30px;
+  }
+}
+
 .doctor .doctor-child-title {
   margin-bottom: 60px;
 }
@@ -44,6 +58,12 @@
 .single-doctor__info {
   margin-bottom: 100px;
 }
+.single-doctor__info > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
 
 .doctor-info-title {
   margin-bottom: 60px;
@@ -54,6 +74,29 @@
   line-height: 30px;
   color: #b81f21;
 }
+
+.profile-title {
+  margin-bottom: 42px;
+}
+
+.profile-title .profile-title__text {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #b81f21;
+}
+
+@media screen and (min-width: 1200px) {
+  .profile-title  {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .profile-title {
+    display: none;
+  }
+}
+
 .profile .red-card {
   background-color: #fcddde;
 }
@@ -90,7 +133,7 @@
   color: #b81f21;
   margin-bottom: 4px;
 }
-.profile-card .profile-card__secondary-title {
+.profile-card > p {
   font-weight: normal;
   font-size: 16px;
   line-height: 140%;
@@ -123,6 +166,13 @@
   border-radius: 50%;
   margin: 40px 30px 40px 46px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .team-card .team-card__img {
+    margin: 20px 20px 45px 20px;
+  }
+}
+
 .team-card__img .team-card__img-src {
   border-radius: 50%;
   width: 100px;
@@ -136,10 +186,22 @@
   color: #b81f21;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .team-card .team-card__description .team-card__description-position{
+    font-size: 12px;
+  }
+}
+
 .team-card__description .team-card__description-name {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 30px;
   color: #333333;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .team-card__description .team-card__description-name{
+    font-size: 16px;
+  }
 }

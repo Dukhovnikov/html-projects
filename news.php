@@ -1,85 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="assets/img/helpers/favicon.png"
-      type="image/png"
-    />
-    <link rel="stylesheet" href="assets/css/libs.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css?v=1.0.0" />
-    <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.0" />
-    <link rel="stylesheet" href="assets/css/header.css?v=1.0.0" />
-    <link rel="stylesheet" href="assets/css/footer.css?v=1.0.0" />
-    <link rel="stylesheet" href="assets/css/news.css?v=1.0.0" />
 
-    <title>Корветцент</title>
-  </head>
-  <body>
-    
-    <section class="therapy">
-      <div class="container">
-        <div class="therapy-header">
-          <p>Статьи о терапии</p>
-        </div>
-        <div class="therapy-body">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/img/helpers/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="assets/css/libs.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css?v=1.0.0" />
+  <link rel="stylesheet" href="assets/css/blocks.css?v=1.0.0" />
+
+  <title>Корветцент</title>
+</head>
+
+<body>
+
+  <?php include ("blocks/header.php"); ?>
+<!-- News -->
+  <section class="news">
+    <div class="container">
+      <div class="row">
+
+      <!-- News left content -->
+        <div class="col-md-8">
+
           <div class="row">
-            <div class="col-md-4">
-              <div class="therapy-body-data">
-                <p>30 ноября 2019 года</p>
-              </div>
-              <div class="therapy-body-title">
-                <p>Мастер-класс по кардиологии</p>
-              </div>
-              <div class="therapy-body-text">
-                <p>
-                  Ведущий кардиолог клиники КорВетЦентр Илларионова Владислава
-                  Константинова провела мастер-класс по кардиологии. Здорово,
-                  когда уровень ветеринарных врачей стремительно повышается!
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="therapy-body-data">
-                <p>27 ноября 2019 года</p>
-              </div>
-              <div class="therapy-body-title">
-                <p>Новые обучающие лекции в нашей клинике</p>
-              </div>
-              <div class="therapy-body-text">
-                <p>
-                  На базе клиники КорВетЦентр проводятся обучающие лекции, во
-                  время которых сотрудники и приглашенные гости делятся
-                  современными данными и опытом лечения собак и кошек.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="therapy-body-data">
-                <p>5 сентября 2019 года</p>
-              </div>
-              <div class="therapy-body-title">
-                <p>Пополнение в команде</p>
-              </div>
-              <div class="therapy-body-text">
-                <p>
-                  Рады представить вам нового члена нашей команды Имя Фамилия.
-                </p>
-              </div>
+            <div class="news__title">
+              <h2 class="news__title-txt">Новости</h2>
             </div>
           </div>
+
+          <a class="news__link" href="news-single.php">
+            <div class="news__card">
+              <div class="news__card__date">
+                <p>30.02.2019</p>
+              </div>
+              <div class="news__card__title">
+                <h3 class="new__card__title-txt">Мастер-класс по кардиологии</h3>
+              </div>
+              <div class="news__card__description">
+                <p>
+                  Ведущий кардиолог клиники КорВетЦентр Илларионова Владислава Константинова провела мастер-класс по кардиологии. Здорово, когда уровень ветеринарных врачей стремительно повышается!
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="therapy-button">
-          <button class="therapy-button__view therapy-button__view__text">
-            Посмотреть все статьи
-          </button>
+
+      <!-- News right content (popular articles) -->
+        <div class="col-md-4">
+          <?php include ("blocks/popular-article-block.php"); ?>
         </div>
       </div>
-    </section>
+      <?php include ("blocks/pagination.php"); ?>
+    </div>
+  </section>
 
+  <!-- Section news + footer + modal + js libs -->
+    <?php include ("blocks/modal-appointment.php"); ?>
+    <?php include ("blocks/modal-thanks.php"); ?>
     <?php include ("blocks/footer.php"); ?>
-    
-  </body>
+
+    <?php include ("blocks/js-lib.php"); ?>
+
+</body>
 </html>

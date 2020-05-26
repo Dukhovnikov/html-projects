@@ -7,26 +7,21 @@
   <link rel="shortcut icon" href="assets/img/helpers/favicon.png" type="image/png" />
   <link rel="stylesheet" href="assets/css/libs.min.css" />
   <link rel="stylesheet" href="assets/css/main.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/header.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/footer.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/kvcr-list.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/index.css?v=1.0.0" />
-  <link rel="stylesheet" href="assets/css/feedback-form.css?v=1.0.0" />
-
+  <link rel="stylesheet" href="assets/css/blocks.css?v=1.0.0" />
+  <link rel="stylesheet" href="assets/css/our-team.css?v=1.0.0" />
+  <link rel="stylesheet" href="assets/css/news-articles.css?v=1.0.0" />
 
   <title>Корветцент</title>
 </head>
 
 <body>
-
-  <div class="version">1.0.0</div>
-
   <?php include ("blocks/header.php"); ?>
 
-  <section>
+<!-- Section our team header -->
+  <section class="our-team-header">
     <div class="container">
       <div class="row">
+
         <div class="col-lg-12">
           <div class="team">
             <div class="team-title">
@@ -40,16 +35,20 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
-  <section class="kvcr-list">
+
+<!-- Section our team members list -->
+  <section class="team-members">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-          <a class="doc-card" href="single-doctor.html" >
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <a class="doc-card" href="our-team-single.php">
             <div class="doc-card__img">
-              <img class="doc-card__img-src" src="./assets/img/kvcr-list/docjpg.png" alt="">
+              <img class="doc-card__img-src" src="./assets/img/kvcr-list/docjpg.png" alt="doctor-image">
             </div>
             <div class="doc-card__position">
               <h3 class="doc-card__position-text">Ветеринарный врач</h3>
@@ -58,14 +57,15 @@
               <h2 class="doc-card__name-text">Владислава Константиновна Илларионова</h2>
             </div>
             <div class="doc-card__specialization">
-              <p class="doc-card__specialization-text">Кардиология</p>
+              <p>Кардиология</p>
             </div>
-          </div>
-        </a>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-          <a href="single-doctor.html" class="doc-card">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <a class="doc-card" href="our-team-single.php">
             <div class="doc-card__img">
-              <img class="doc-card__img-src" src="./assets/img/kvcr-list/docjpg.png" alt="">
+              <img class="doc-card__img-src" src="./assets/img/kvcr-list/docjpg.png" alt="doctor-image">
             </div>
             <div class="doc-card__position">
               <h3 class="doc-card__position-text">Ветеринарный врач</h3>
@@ -74,68 +74,24 @@
               <h2 class="doc-card__name-text">Владислава Константиновна Илларионова</h2>
             </div>
             <div class="doc-card__specialization">
-              <p class="doc-card__specialization-text">Кардиология</p>
+              <p>Кардиология</p>
             </div>
-          </div>
-        </a>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-          <a href="single-doctor.html" class="doc-card">
-            <div class="doc-card__img">
-              <img class="doc-card__img-src" src="./assets/img/kvcr-list/docjpg.png" alt="">
-            </div>
-            <div class="doc-card__position">
-              <h3 class="doc-card__position-text">Ветеринарный врач</h3>
-            </div>
-            <div class="doc-card__name">
-              <h2 class="doc-card__name-text">Владислава Константиновна Илларионова</h2>
-            </div>
-            <div class="doc-card__specialization">
-              <p class="doc-card__specialization-text">Кардиология</p>
-            </div>
-          </div>
-        </a>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-          <a href="single-doctor.html" class="doc-card">
-            <div class="doc-card__img">
-              <img class="doc-card__img-src" src="./assets/img/kvcr-list/docjpg.png" alt="">
-            </div>
-            <div class="doc-card__position">
-              <h3 class="doc-card__position-text">Ветеринарный врач</h3>
-            </div>
-            <div class="doc-card__name">
-              <h2 class="doc-card__name-text">Владислава Константиновна Илларионова</h2>
-            </div>
-            <div class="doc-card__specialization">
-              <p class="doc-card__specialization-text">Кардиология</p>
-            </div>
-          </div>
-        </a>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-          <a href="single-doctor.html" class="doc-card">
-            <div class="doc-card__img">
-              <img class="doc-card__img-src" src="./assets/img/kvcr-list/docjpg.png" alt="">
-            </div>
-            <div class="doc-card__position">
-              <h3 class="doc-card__position-text">Ветеринарный врач</h3>
-            </div>
-            <div class="doc-card__name">
-              <h2 class="doc-card__name-text">Владислава Константиновна Илларионова</h2>
-            </div>
-            <div class="doc-card__specialization">
-              <p class="doc-card__specialization-text">Кардиология</p>
-            </div>
-          </div>
-        </a>
+          </a>
+        </div>
+
       </div>
     </div>
   </section>
 
   <?php include ("blocks/feedback-form.php"); ?>
+<!-- Section feedback-from + news + footer + js libs -->
+  <?php include ("blocks/news-articles.php"); ?>
+  <?php include ("blocks/modal-appointment.php"); ?>
+  <?php include ("blocks/modal-thanks.php"); ?>
   <?php include ("blocks/footer.php"); ?>
 
-  <script src="assets/js/libs.min.js"></script>
-  <script src="assets/js/share.js?v=1.0.0"></script>
-  <script src="assets/js/main.js?v=1.0.0"></script>
+  <?php include ("blocks/js-lib.php"); ?>
+
 </body>
 
 </html>
